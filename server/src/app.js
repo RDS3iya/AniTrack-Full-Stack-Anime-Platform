@@ -1,0 +1,14 @@
+import express from 'express';
+import cors from 'cors';
+import authRoutes from './routes/auth.js';
+import animeRoutes from './routes/anime.js';
+import historyRoutes from './routes/history.js';
+const app = express();
+app.use(cors({ origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173' }));
+app.use(express.json());
+app.get('/api/health', (_req, res) => res.json({ status: 'ok' }));
+app.use('/api/auth', authRoutes);
+app.use('/api/anime', animeRoutes);
+app.use('/api/history', historyRoutes);
+app.use((error, _req, res, _next) => { console.error(error); res.status(500).json({ message: 'Error interno del servidor.' }); });
+export default app;
