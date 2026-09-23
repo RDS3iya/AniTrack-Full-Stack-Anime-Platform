@@ -1,6 +1,21 @@
-node_modules/
-dist/
+# Dependencias
+node_modules
+*/node_modules
+
+# Variables de entorno
 .env
+*/.env
 .env.local
+
+# Builds y Cache de Vite
+dist
+*/dist
+.vite-cache
+*/.vite-cache
+.vite
+*/.vite
+
+# Logs y OS
 *.log
-server/prisma/dev.db
+.DS_Store
+Thumbs.db
