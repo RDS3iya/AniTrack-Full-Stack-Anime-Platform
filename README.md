@@ -138,6 +138,6 @@ Abre tu navegador en `http://localhost:5173`.
 
 **Julián Josué Pimentel Almonte**  
 - 🎓 Estudiante de Seguridad Informática en **ITLA**
-- 💼 LinkedIn: [Tu Perfil de LinkedIn](https://linkedin.com)
+- 💼 LinkedIn: [Julian Josue Pimentel.A](www.linkedin.com/in/julian-josue-pimentel-almonte-4654a7403)
 - 🐙 GitHub: [@RDS3iya](https://github.com/RDS3iya)
 - 📧 Contacto: julianjosuebti@gmail.com
